@@ -1,0 +1,18 @@
+# Keep secrets, live data, and box-only files out of `railway up` uploads.
+.env
+.env.*
+.venv/
+data/
+backups/
+work/
+tests/
+__pycache__/
+*.db
+*.db-*
+*.log
+*.log.*
+*.lock
+*.bak
+*.bak-*
+*.bak*
+RAILWAY_LIVE

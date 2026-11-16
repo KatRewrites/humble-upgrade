@@ -1,0 +1,41 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets & local data
+.env
+data/
+*.db
+*.db-journal
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backups / scratch
+backups/
+*.bak
+*.bak-*
+_patch*.py
+_fix*.py
+_apply*.py
+_quotes*.py
+
+# Deploy leftovers
+.railway/
+
+# Logs / process leftovers
+*.log
+*.log.*
+*.lock
+bot.pid
+RAILWAY_LIVE
+.posted_ann_*
+
+# Log directories
+logs/
